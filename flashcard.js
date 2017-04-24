@@ -35,7 +35,7 @@ inquirer.prompt([
   {
     name: "front",
     message: "The first american satelite is?"
-    //answer: "Explorer 1"
+    //answer: "Explorer1"
   }, {
     name: "back",
     message: "Who is your current president of the United States Of America?"
