@@ -21,9 +21,11 @@ function Flashcard(front,back) {
   // Validating the user input for the second question
  this.validate = function(value) {
  	if (this.back === "Donald Trump") {
+
   		console.log("2. Excellent Job! You Got the answer for the second question!");
   	}else{
   		console.log("2. Sorry You Lost! The correctanswer was ==> Donald Trump");
+      console.log("-----------------------------------------------------");
   	}
   }
   this.validate(); 
@@ -35,7 +37,7 @@ inquirer.prompt([
   {
     name: "front",
     message: "The first american satelite is?"
-    //answer: "Explorer1"
+    //answer: "Explorer 1"
   }, {
     name: "back",
     message: "Who is your current president of the United States Of America?"
